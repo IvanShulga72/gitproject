@@ -61,3 +61,17 @@ git reset --hard origin/master - всё на локальном откатитс
 
 git rm namefie - удаление как из папки, так и из отслеживания
 git rm namefie --cached - удаление только и из отслеживания гит
+
+
+
+
+
+git branch - список веток в проекте
+git branch namebranch - создание новой ветки в проекте
+git branch -v - список веток в проекте и последних коммитов в них
+git branch -m newnamebranch - новое название для текущей ветки
+git branch -d namebranch - удаление ветки, безопасное
+git branch -D namebranch - удаление ветки, принудительно
+git branch --merged - какие ветки вмерджины в текущую
+git branch --no-merged - какие ветки невмерджины в текущую
+git merge namebranch - объединение ветки namebranch с текущей
