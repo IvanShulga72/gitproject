@@ -97,3 +97,8 @@ git checkout --theirs namefile - в текущей конфликтной сит
 
 
 git push -u origin namebranch(или HEAD) - создание удаленной ветки
+git push  origin --delete namebranch - удаление удаленной ветки
+
+git rebase - перебазирование истории, сначала с другой ветки, потом с этой
+git rebase -i - интрактивное перебазирование истории (можно объединить несколько коммитов в один)
+git pull -- rebase origin namebranch - перебазирование удалённой ветки
