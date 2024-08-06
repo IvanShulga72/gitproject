@@ -4,3 +4,5 @@ console.log('123');
 console.log('test');
 console.log('test3');
 console.log('test2');
+
+console.log("other text");
